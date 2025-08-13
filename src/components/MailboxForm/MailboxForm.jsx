@@ -2,8 +2,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 
-const initialState = {
-    _id: 0,
+const initialState = { 
     boxSize: '',
     boxOwner: '',
 }

@@ -120,3 +120,7 @@ textarea {
 button {
   background-color: #535bf2;
 }
+
+li {
+  gap: 50px;
+}

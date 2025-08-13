@@ -9,7 +9,7 @@ const MailboxList = ({ mailboxes }) => {
             {mailboxes.map((mailbox, idx) => (
                 <li key={idx}>
                     <Link to={`/mailboxes/${mailbox._id}`}>
-                    {mailbox.boxOwner}
+                    Mailbox Owner:{mailbox.boxOwner} Box Number:{mailbox._id}
                     </Link>
                 </li>
             ))}
